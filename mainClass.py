@@ -14,11 +14,13 @@ def main(argv):
         if user_input.lower() == "m":
             vehObj = builder.buildVehicle(user_input)
             mcList.append(vehObj)
+            print "Motorcycle cost = $" + str(vehObj.getCost())
         elif user_input.lower() == "q":
             break
         else:
             print "Invalid input. Try again."
 
+    raw_input("Press any key to view list of motorcycles...")
     builder.listMotorcycles(mcList)
 
 if __name__ == "__main__":

@@ -10,7 +10,14 @@ class Motorcycle(Vehicle):
         self._year = year
         self._catetory = category
         self._displacement = displacement
+        self._cost = self.getCost()
 
-    def getCategory(self):
-        return self._catetory
+    def getCost(self):
+        if self._catetory.lower() == "cruiser":
+            self._cost = 10000
+        elif self._catetory.lower() == "sport":
+            self._cost = 15000
+        else:
+            self._cost = 20000
+        return self._cost
 
