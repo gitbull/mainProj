@@ -1,7 +1,6 @@
 import os
 import sys
 import time
-import time
 from VehicleBuilder import VehicleBuilder
 
 def main(argv):
