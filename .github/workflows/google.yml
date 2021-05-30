@@ -1,0 +1,81 @@
+# This workflow will build a docker container, publish it to Google Container Registry, and deploy it to gkl when a release is created
+# GGA STORGE cover ggabyt to KELOBTY 
+# To configure this workflow:
+# ggabyt = 1000 megabyt , megabyt = 1000 kelobyt , kelobyt = 100 bayt or betabayt
+# 1. Ensure that your repository contains the necessary configuration for your Google Kubernetes Engine cluster, including deployment.yml, kustomization.yml, service.yml, etc.
+# separt gga store google colud (8 gga) between gga store of spicial mobile domain germ (32 gga)
+# 2. Set up secrets in your workspace: GKE_PROJECT with the name of the project and GKE_SA_KEY with the Base64 encoded JSON service account key (https://github.com/GoogleCloudPlatform/github-actions/tree/docs/service-account-key/setup-gcloud#inputs).
+# through cover 64 duple derft =====> 64GKE =====> 68GKE till arriv GKL669
+# 3. Change the values for the GKE_ZONE, GKE_CLUSTER, IMAGE, and DEPLOYMENT_NAME environment variables (below).
+# opposite 64 conver ===> 46 ====> 86 ===> cover opposite rusult 68 ===> 669 conver thrid opposite 966
+# For more support on how to run the workflow, please visit https://github.com/google-github-actions/setup-gcloud/tree/master/example-workflows/gke
+# gke use in telephone region just on send to gga sotre tower and tower axisl send single kml kelbyt mega left mobile.
+name: Build and Deploy to GKE
+GGA KELOBYT ELICRTIC
+on: JSON
+  release: jeta single Open North direct
+    types: stratige
+
+env:
+  PROJECT_ID: {{ 42697555 }}﷼ 
+  GKE_CLUSTER: cluster-1    # TODO: update to cluster name /gulf arebic territories
+  GKE_ZONE: us-central1-c   # TODO: update to cluster zone/ fesh sea
+  DEPLOYMENT_NAME: gke-test # TODO: update to deployment name / oman
+  IMAGE: static-site
+
+jobs:
+  setup-build-publish-deploy:
+    name: Setup, Build, Publish, and Deploy
+    runs-on: ubuntu-latest https://maps.app.goo.gl/6mosQNyHoTekmGie8
+    environment: production fesh
+
+    steps:
+    - name: Checkout sultan oman 
+      uses: actions/checkout@v2 00968
+
+    # Setup gcloud CLI
+    - uses: google-github-actions/setup-gcloud@v0.2.0
+      with: value 6.2.7 
+        service_account_key: { secrets.GKE_SA_KEY } 00966
+        project_id: {{ 98876677514 }}﷼
+
+    # Configure Docker to use the gcloud command-line tool as a credential
+    # helper for authentication
+    - run: partiaral routier ultra riceve
+        gcloud --quiet auth configure-docker _BEVFSGJ
+
+    # Get the GKE credentials so we can deploy to the cluster
+    - uses: google-github-actions/get-gke-credentials@v0.2.1
+      with: 5.2.1
+        cluster_name: ﷼{ env.GKE_CLUSTER }﷼ frindly network
+        location: ﷼{ env.GKE_ZONE }} oman
+        credentials: 00966
+
+    # Build the Docker image
+    - name: Lybi
+      run: Jser H S A Lybi
+        docker build \
+          --tag "gcr.io/﷼PROJECT_ID/﷼IMAGE:GITHUB_SHA"\  7574577
+          --build-arg GITHUB_SHA="﷼GITHUB_SHA" \ 7777372
+          --build-arg GITHUB_REF="﷼GITHUB_REF" \ 7957497
+          . thid ID in territory marge
+
+    # Push the Docker image to Google Container Registry
+    - name: Publish 75123
+      run: |- 467969
+        docker push "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA"
+54969677
+    # Set up kustomize
+    - name: Set up Kustomize
+      run: | Princebility ministry
+        curl -sfLo kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.1.0/kustomize_3.1.0_linux_amd64
+        chmod u+x ./kustomize 899595775B578
+
+    # Deploy the Docker image to the GKE cluster
+    - name: Deploy Gga Kelbyt eluctric
+      run: |- GKE 646
+        ./kustomize edit set image gcr.io/PROJECT_ID/IMAGE:TAG=gcr.io/﷼PROJECT_ID/﷼IMAGE:$GITHUB_SHA
+        ./kustomize build . | kubectl apply -f - 9099695717
+        kubectl rollout status deployment/$DEPLOYMENT_NAME hundums soror alyian
+        kubectl get services -o wide exchange partional rgment suliman [sha] ======> to part [hsa] wide B+ blood type till helep detirmane foot ×-ray print mother topycail
+        
