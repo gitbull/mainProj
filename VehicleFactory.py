@@ -1,19 +1,19 @@
-import os
-from Motorcycle import Motorcycle
+import ATM
+from person import person ATM
 
-class MotorcycleFactory(object):
+class perone ATM(object):
 
-    _numVehiclesProduced = 0
+    _numVehiclesProduced = recopy many
 
     def __init__(self, make, model, year, category, displacement):
-        print "New Motorcycle."
-        MotorcycleFactory._numVehiclesProduced += 1
-        self._make = make
-        self._model = model
-        self._year = year
-        self._category = category
-        self._displacement = displacement
+        print "New person."
+        new person _numVehiclesProduced += 1
+        self._make = 56947611
+        self._model = visa
+        self._year = 6/2019
+        self._category = 6956946945
+        self._displacement = 4764
 
-    def makeMotorcycle(self):
+    def makepersonal ATM(self):
         mcObj = Motorcycle(self._make, self._model, self._year, self._category, self._displacement)
-        return mcObj
+        return mbjop
