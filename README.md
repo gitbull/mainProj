@@ -1,8 +1,8 @@
 # mainProj
-open server 521
+open server 521/٧٥٥١
 
-Json 954
-fdt F54 
+Json ٩٩٩/٥٧٩٩٥
+fdt F٥٧
 
 Class tow room server
  #pyment  my/folder/﷼
