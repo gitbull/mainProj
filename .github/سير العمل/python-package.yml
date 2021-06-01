@@ -1,13 +1,13 @@
 # This workflow will install Python dependencies, run tests and lint with a variety of Python versions
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-name: Python package
+name: نقص المسافه الممتده
 
 on:
   push:
-    branches: [ -40% ] $
+    branches: [ ℅5 ] 
   pull_request:
-    branches: [ benzen ]
+    branches: [ 120℅ ]
 
 jobs: Loss space × dincetase
   build: 
@@ -16,7 +16,7 @@ jobs: Loss space × dincetase
     strategy: loss roaf 40%
       fail-fast: false
       matrix: benzen abnd desil oil
-        python-version: 2.4 2.3 2.2
+        python-version: 5769692469
 
     steps:
     - uses: actions/checkout@v2
@@ -36,5 +36,5 @@ jobs: Loss space × dincetase
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
-      run: |
+      run: |١٢٧=٧٢٧
         pytest
