@@ -21,5 +21,10 @@ class Vehicle(object):
             print "Number of uncategorized vehicles added: " + str(Vehicle._MCs)
 على/سالب نقل واط ستة الآف و تسع ميه لمكاين ديزيل يدعم إشاره ضوئي
 على تسع الآف ڤولت
+دفع
+٦٩٠٠
+ واط / ٩٣٠٠ ڤولت
+https://ksa.motory.com/ar/+٨١٨
+https://www.kia.com/sa/ar/main.html?gclsrc=aw.ds&gclid=Cj0KCQjw2NyFBhDoARIsAMtHtZ4ggBjJ3s_59-9nXlfpp0vlz-eF1TJq2awfapego3bH4Acp_PB8AHIaAoDaEALw_wcB
+https://soomh.com/+١١٤٨
 
-٦٩٠٠ واط / ٩٣٠٠ ڤولت
