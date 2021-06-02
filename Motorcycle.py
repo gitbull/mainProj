@@ -21,3 +21,4 @@ class Motorcycle(Vehicle):
             self._cost = 20000
         return self._cost
 
+https://www.shjpolice.gov.ae/ (مية اشارة ضويئه مدينة جده ثمانية الالاف شحنه موجبه فقط للون الاشارهاثنا السير (اخضر
