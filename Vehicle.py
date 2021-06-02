@@ -19,3 +19,4 @@ class Vehicle(object):
         else:
             Vehicle._uncategorized += 1
             print "Number of uncategorized vehicles added: " + str(Vehicle._MCs)
+سالب نقل طاقه ستة الآف و تسع ميه لمكاين ديزيل يدعم إشاره ضوئيه
