@@ -30,7 +30,7 @@ class Vehicle(object):
 
 https://ksa.motory.com/ar/٨١٨/-٣٩+
 https://www.kia.com/sa/ar/main.html?gclsrc=aw.ds&gclid=Cj0KCQjw2NyFBhDoARIsAMtHtZ4ggBjJ3s_59-9nXlfpp0vlz-eF1TJq2awfapego3bH4Acp_PB8AHIaAoDaEALw_wcB
-https://soomh.com/١١٤١/-٥٤
+https://soomh.com/٧٣٧٧+/-٥٤
 دفع الفولت كالتالي :-
 ٩٤٠٠+ فولت
 ٩٣٠٠+ فولت
