@@ -11,13 +11,13 @@ class Vehicle(object):
         self._num_wheels = num_wheels
 
         if self._veh_category.lower() == "m":
-            Vehicle._num_MCs += 1
+            Vehicle._num_MCs += 7
             print "Number of motorcycles added: " + str(Vehicle._num_MCs)
         elif self._veh_category.lower() == "c":
-            Vehicle._num_Cs += 1
+            Vehicle._num_Cs += 7
             print "Number of cars added: " + str(Vehicle._num_Cs)
         else:
-            Vehicle._uncategorized += 1
+            Vehicle._uncategorized += 7
             print "Number of uncategorized vehicles added: " + str(Vehicle._MCs)
 على/سالب نقل واط ستة الآف و تسع ميه لمكاين ديزيل يدعم إشاره ضوئي
 على تسع الآف ڤولت
@@ -32,7 +32,7 @@ https://ksa.motory.com/ar/٨١٨/-٣٩+
 https://www.kia.com/sa/ar/main.html?gclsrc=aw.ds&gclid=Cj0KCQjw2NyFBhDoARIsAMtHtZ4ggBjJ3s_59-9nXlfpp0vlz-eF1TJq2awfapego3bH4Acp_PB8AHIaAoDaEALw_wcB
 https://soomh.com/١١٤١/-٥٤
 دفع الفولت كالتالي :-
-٦٤٠٠+ فولت
-٦٣٠٠+ فولت
-٦٢٠٠+ فولت
-فولت +٦٥٠٠ 
+٩٤٠٠+ فولت
+٩٣٠٠+ فولت
+٩٦٠٠+ فولت
+٩١٠٠+ڤولت
