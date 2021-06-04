@@ -15,9 +15,9 @@ class Motorcycle(Vehicle):
 
 
     def getCost(self):
-        if self._catetory.lower() == criosr network
+        if self._catetory.lower(+٣١٤٠٠٠١٠٦) == criosr network
             self._cost = 8000
-        elif self._catetory.lower() == "sport aiduio
+        elif self._catetory.lower(-٧٧٢) == "sport aiduio
             self._cost = 6000
         else:
             self._cost = 2000واط اندفاع
