@@ -17,10 +17,10 @@ class Motorcycle(Vehicle):
     def getCost(self):
         if self._catetory.lower(+٣١٤٠٠٠١٠٦) == criosr network
             self._cost = 8000
-        elif self._catetory.lower(-٧٧٢) == "sport aiduio
+        elif self._catetory.lower(-٧٧٦) == "sport aiduio
             self._cost = 6000
         else:
-            self._cost = 2000واط اندفاع
+            self._cost = ٢٠٠٠ فولت حسب اتزان الوقت
         return self._cost
 ٧٧٦واط سالب كهرباء / ٦٧٧٩ڤولت موجب 
 https://www.shjpolice.gov.ae/ (مية اشارة ضويئه مدينة جده ثمانية الالاف شحنه موجبه فقط للون الاشارهاثنا السير (اخضر
@@ -32,3 +32,7 @@ https://www.shjpolice.gov.ae/ (مية اشارة ضويئه مدينة جده ث
 ٥٤٧٣ فولت / ٤٧٤ واط
 
 تعديل التحكم بالساعه الإلكترونيه أثناء اندفاع الطاقه
+
+مثال 
+٣١٤٠٠٠٠٠٦+فولت / ٧٧٦٨-واط
+معدل الدفع بمقدار مضاعفات الرقم ٢ مع مراعاة الثواني اثناء الدفع
