@@ -12,12 +12,28 @@ class Motorcycle(Vehicle):
         self._displacement = displacement
         self._cost = self.getCost()
 
+
+
     def getCost(self):
-        if self._catetory.lower() == "cruiser":
-            self._cost = 10000
-        elif self._catetory.lower() == "sport":
-            self._cost = 15000
+        if self._catetory.lower(+٣١٤٠٠٠١٠٦) == criosr network
+            self._cost = 8000
+        elif self._catetory.lower(-٧٧٦) == "sport aiduio
+            self._cost = 6000
         else:
-            self._cost = 20000
+            self._cost = ٢٠٠٠ فولت حسب اتزان الوقت
         return self._cost
+٧٧٦واط سالب كهرباء / ٦٧٧٩ڤولت موجب 
+https://www.shjpolice.gov.ae/ (مية اشارة ضويئه مدينة جده ثمانية الالاف شحنه موجبه فقط للون الاشارهاثنا السير (اخضر
+
+عامل إندفاع علامة صفراء
+٥٤٧٣ ڤولت / ٤٧٧واط
+٥٤٧٣فولت / ٨٨٦ واط
+٥٤٧٣ فولت / ٤٧٥ واط
+٥٤٧٣ فولت / ٤٧٤ واط
+
+تعديل التحكم بالساعه الإلكترونيه أثناء اندفاع الطاقه
+
+مثال 
+٣١٤٠٠٠٠٠٦+فولت / ٧٧٦٨-واط
+للعبور المشاه معدل الدفع بمقدار مضاعفات الرقم ٢٠٠٠ مع مراعاة الثواني اثناء الدفع
 
