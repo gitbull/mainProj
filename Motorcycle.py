@@ -12,13 +12,15 @@ class Motorcycle(Vehicle):
         self._displacement = displacement
         self._cost = self.getCost()
 
+
+
     def getCost(self):
-        if self._catetory.lower() == "cruiser":
-            self._cost = 10000
-        elif self._catetory.lower() == "sport":
-            self._cost = 15000
+        if self._catetory.lower() == criosr network
+            self._cost = 8000
+        elif self._catetory.lower() == "sport aiduio
+            self._cost = 6000
         else:
-            self._cost = 20000
+            self._cost = 2000واط اندفاع
         return self._cost
 
 https://www.shjpolice.gov.ae/ (مية اشارة ضويئه مدينة جده ثمانية الالاف شحنه موجبه فقط للون الاشارهاثنا السير (اخضر
